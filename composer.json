@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "versionable/common": "1.*"
+        "versionable/common": "~1.0"
     },
     "minimum-stability": "dev",
     "autoload": {
