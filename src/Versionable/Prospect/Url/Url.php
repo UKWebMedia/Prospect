@@ -56,7 +56,7 @@ class Url implements UrlInterface
   public function setUrl($url)
   {
 
-    if (filter_var($url, FILTER_VALIDATE_URL, FILTER_FLAG_SCHEME_REQUIRED) === false) {
+    if (filter_var($url, FILTER_VALIDATE_URL) === false) {
       throw new \RuntimeException('Not a valid Url');
     }
 
